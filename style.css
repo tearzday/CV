@@ -1,0 +1,123 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.container{
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.hero{
+    background-color: black;
+}
+
+.head{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 120px;
+}
+
+
+
+.head__myName{
+    display: flex;
+    padding-top: 300px;
+}
+
+.head__myName p:first-child{
+    font-size: 56px;
+    transform-origin: 0 0;
+    transform: rotate(-90deg);
+
+}
+
+.head__myName p:last-child{
+    font-size: 100px;
+    transform-origin: 0 0;
+    transform: rotate(-90deg);
+    margin-left: -80px;
+}
+
+.head__about{
+    width: 620px;
+    font-size: 18px;
+}
+
+.head__about p{
+    margin-bottom: 20px;
+}
+
+.head__photo{
+    height: 0;
+}
+
+.head__photo img{
+    width: 620px;
+    position: relative;
+
+}
+
+
+.social{
+    margin-top: 110px;
+    margin-left: 190px;
+}
+
+.social h3{
+    font-weight: 700;
+    font-size: 50px;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+.
